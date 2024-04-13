@@ -1,0 +1,45 @@
+@import url(../variaveis.css);
+.header-nav a:nth-child(2){
+    text-decoration: underline;
+}
+main{
+    background-color: var(--cor-primaria);
+}
+h1{
+    text-align: center;
+    color: var(--cor-terciaria);
+    padding-top: 2rem;
+}
+.experts{
+    display: flex;
+    gap: 3rem;
+    width: 63vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.experts_cards{
+    background-color: var(--cor-quartenaria);
+    height: 25rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: solid 5px var(--cor-terciaria);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--cor-secundaria);
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.experts_cards:hover{
+    filter: brightness(110%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+img{
+    height: 80%;
+}
