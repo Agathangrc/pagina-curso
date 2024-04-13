@@ -1,0 +1,43 @@
+@import url(./variaveis.css);
+.header-nav a:nth-child(1){
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+}
+main{
+    background-color:var(--cor-primaria);
+}
+
+h1{
+    color: var(--cor-terciaria);
+    text-align: center;
+    margin-top: 3rem;
+}
+.cursos{
+    display: flex;
+    gap: 1rem;
+    width: 80vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.cursos__card{
+    background-color: var(--cor-quartenaria);
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: solid 5px var(--cor-terciaria);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--cor-secundaria);
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.cursos__card:hover{
+    filter: brightness(110%);
+    cursor: pointer;
+    transform: scale(1.1);
+}
